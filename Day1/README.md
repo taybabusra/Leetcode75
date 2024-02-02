@@ -1,11 +1,11 @@
-1768. Merge Strings Alternately
+**1768. Merge Strings Alternately**
 Easy
 Topics
 Companies
 Hint
 You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, 
-starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
-
+starting with word1. If a string is longer than the other, append t 
+he additional letters onto the end of the merged string.
 Return the merged string.
 
  
@@ -34,7 +34,10 @@ Explanation: Notice that as word1 is longer, "cd" is appended to the end.
 word1:  a   b   c   d
 word2:    p   q 
 merged: a p b q c   d
- 
+
+
+** Time Complexity = O(m+n) **
+** Space Complexity = O (m/n) ---> the largest length
 
 Constraints:
 
