@@ -28,3 +28,7 @@ n == candies.length
 2 <= n <= 100  
 1 <= candies[i] <= 100  
 1 <= extraCandies <= 50  
+
+
+**Time complexity: O(n)**
+**Space complexity :O(n)**
