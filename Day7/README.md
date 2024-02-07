@@ -36,4 +36,11 @@ s contains English letters (upper-case and lower-case), digits, and spaces ' '.
 There is at least one word in s.
 
 
+Approach:
+Trim leading and trailing spaces from the input string s.
+Split the string s into words using spaces as delimiters.
+Reverse the order of the words.
+Join the reversed words into a single string separated by a single space.
+Return the reversed string
+
 
