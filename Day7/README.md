@@ -33,5 +33,5 @@ Join the reversed words into a single string separated by a single space.
 Return the reversed string  
 
 
-**Time Complexity: O(n)**
-**Space Complexity:O(1)*
+**Time Complexity: O(n)**  
+**Space Complexity:O(n)*
