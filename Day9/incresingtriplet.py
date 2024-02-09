@@ -25,3 +25,33 @@ class Solution:
         
         # If no increasing triplet subsequence is found, return False
         return False
+
+
+## Another solution more optimized 
+class Solution:
+    def increasingTriplet(self, nums: List[int]) -> bool:
+        # Check if the length of the array is less than 3
+        if len(nums) < 3:
+            return False
+        
+        # Initialize two variables to store the smallest and second smallest elements
+        min_value = float('inf')
+        second_min = float('inf')
+        
+        # Iterate through each element in the array
+        for num in nums:
+            # If the current number is smaller than or equal to the smallest seen so far,
+            # update the smallest value
+            if num <= min_value:
+                min_value = num
+            # If the current number is greater than the smallest but smaller than the second smallest,
+            # update the second smallest value
+            elif num <= second_min:
+                second_min = num
+            # If the current number is greater than both the smallest and second smallest,
+            # we've found an increasing triplet subsequence, return True
+            else:
+                return True
+        
+        # If no increasing triplet subsequence is found, return False
+        return False
